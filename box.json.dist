@@ -1,0 +1,19 @@
+{
+    "chmod": "0755",
+    "main": "bin/console",
+    "output": "BotRehtse.phar",
+    "directories": ["src"],
+    "finder": [
+        {
+            "name": "*.*",
+            "exclude": ["test", "tests"],
+            "in": ["vendor","config"]
+         },
+        {
+            "name": "*.*",
+            "exclude": ["test", "tests"],
+            "in": ["config"]
+         }
+    ],
+    "stub": true
+}
