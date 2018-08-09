@@ -5,6 +5,7 @@ Bot Realizado para el concurso de faros de euskal encounter.
 
 Requisitos:
 + php 7.1 o superior.
++ Plataforma para ejecutar el robot: https://github.com/marcan/lighthouses_aicontest
 
 Ejecutar:
 $ php BotRehtse.phar iacontest
